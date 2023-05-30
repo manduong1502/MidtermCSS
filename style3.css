@@ -1,0 +1,85 @@
+body{
+    background-color: rgb(42, 27, 27);
+    height: 100%;
+}
+.header{
+    background-color: rgb(74, 58, 58);
+    border-radius: 10px;
+    margin: 20px;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+.header img{
+    height: 60px;
+    margin-top: 10px;
+    margin-left: 10px;
+    padding-left: 30px;
+}
+.link{
+    font-size: 30px;
+    padding-top: 20px;
+    margin-right: 20px;
+}
+.link a{
+    color: white;
+    text-decoration: none;
+    padding-right: 20px;
+}
+.link a:hover{
+    text-decoration: underline;
+}
+
+.hero{
+    display: flex;
+    background-color: rgb(74, 58, 58);
+    border-radius: 10px;
+    margin: 20px;
+    justify-content: space-between;
+}
+.hero img{
+    height: 500px;
+}
+.hinh1, .hinh2, .hinh3{
+    margin-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.hinh3{
+    margin-right: 10px;
+}
+
+.content{
+}
+.headline, .contentcopy, .aside, .contentfooter{
+    background-color: rgb(74, 58, 58);
+    border-radius: 10px;
+    padding-left: 10px;
+}
+.headline{
+    float: left;
+    width: 65%;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+.contentcopy{
+    float: left;
+    width: 65%;
+    margin-left: 20px;
+}
+.aside{
+    float: right;
+    width: 30%;
+    margin-right: 20px;
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+.contentfooter{
+    margin-left: 20px;
+    float: left;
+    width: 100%;
+    margin-top: 10px;
+}
+
+
+

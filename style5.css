@@ -1,0 +1,49 @@
+.dangnhap{
+    height: 300px;
+    width: 70%;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+}
+
+.left{
+    padding-left: 15px;
+    width: 40%;
+}
+.left-top{
+    margin-bottom: 20px;
+}
+.left-top p{
+    font-size: 20px;
+    margin-bottom: 5px ;
+}
+.left-mid input{
+    border: none;
+    border-bottom: 1px solid gray;
+    width: 85%;
+    margin-top: 10px;
+}
+.left-mid button{
+    width: 85%;
+    height: 30px;
+    margin-top: 20px;
+    background-color:rgb(221, 54, 54) ;
+    color: white;
+    border-radius: 10px;
+}
+.left-mid button:hover{
+    background-color: rgb(222, 104, 104);
+}
+.left-bot{
+    font-size: 12px;
+    margin-top: 20px;
+}
+.left-bot p, .left-bot span{
+    color: blue;
+}
+.left-bot p:hover, .left-bot span:hover{
+    text-decoration: underline;
+}
+
+.right img{
+    height: 300px;
+}

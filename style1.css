@@ -1,0 +1,53 @@
+.Service{
+    height: 50px;
+    background-color: #000;
+    margin-top: 20px;
+    width: 40%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#item{
+    margin: 0;
+    padding: 0 12px;
+}
+#item > li{
+    display: inline-block;
+}
+#item li{
+    position: relative;
+    list-style: none;
+}
+#item > li > a {
+    color: #fff;
+    text-transform: uppercase;
+}
+#item li a {
+    text-decoration: none;
+    line-height: 50px;
+    padding: 0 20px;
+    display: block;
+}
+#item > li:hover > a {
+    background-color: #bdbdbdd3;
+}
+#item li:hover .menu {
+    display: block;
+}
+#item .menu  {
+    display: none;
+    position: absolute;
+    background-color: #ffffff;
+    box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.2);
+    list-style: none;
+    padding: 0 5px;
+    width: 200.75px;
+}
+#item .menu a {
+    color: #000;
+    line-height: 30px;
+    text-transform: uppercase;
+}
+#item .menu li:hover a {
+    color: #d1b120;
+}
+

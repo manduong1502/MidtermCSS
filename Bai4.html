@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bai4</title>
+    <link rel="stylesheet" href="style4.css">
+</head>
+<body>
+    <h1>Customer Form</h1>
+    <div class="infomation">
+        <div class="fullname">
+            <p>Full Name</p>
+            <input type="text" placeholder="Your full name...">
+        </div>
+        <div class="email">
+            <p>Email</p>
+            <input type="text" placeholder="Your email...">
+        </div>
+        <div class="phone">
+            <p>Phone</p>
+            <input type="text" placeholder="Your phone...">
+        </div>
+        <div class="gender">
+            <p>Gender</p>
+            <form>
+                <input name="gender" type="radio" value="Male" />Nam
+                <input name="gender" type="radio" value="Female" />Nữ
+                <input name="gender" type="radio" value="Other" />Khác
+            </form>
+        </div>
+        <div class="country">
+            <form>
+                <label for="country">Country</label>
+                <select name="country" id="country">
+                  <option value="usa">Vietnam</option>
+                  <option value="canada">Thailand</option>
+                  <option value="mexico">Laos</option>
+                </select>
+              </form>
+        </div>
+        <div class="comment">
+            <p>Comment</p>
+            <input type="text" placeholder="Write something...">
+        </div>
+        <div class="choose">
+            <button class="submit"><p>Submit</p></button>
+            <button class="reset"><p>Reset</p></button>
+        </div>
+    </div>
+</body>
+</html>
